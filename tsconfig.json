@@ -11,5 +11,6 @@
     "moduleResolution": "bundler",
     "useDefineForClassFields": true
   },
-  "include": ["src"]
+  "include": ["resources"],
+  
 }

@@ -5,16 +5,18 @@ export default defineConfig({
   plugins: [pluginReact()],
   source: {
     entry: {
-      index: "./resources/index.tsx",
+      index: "./resources/js/index.tsx",
     },
   },
   output: {
+    cleanDistPath: true,
     distPath: {
       root: "public",
     },
+    copy: [{ from: "resources/images/", to: "images/" }],
   },
   html: {
-    title: "Example",
+    title: "Go Fiber",
   },
   dev: {
     writeToDisk: true,

@@ -1,12 +1,15 @@
 (function() {
 var __webpack_modules__ = {
-"./resources/App.tsx": (function (module, __webpack_exports__, __webpack_require__) {
+"./resources/js/App.tsx": (function (module, __webpack_exports__, __webpack_require__) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */"./node_modules/react/jsx-dev-runtime.js");
 /* harmony import */var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */var _App_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.css */"./resources/App.css");
+/* harmony import */var _App_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.css */"./resources/js/App.css");
+/* harmony import */var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */"./node_modules/react/index.js");
+/* harmony import */var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__(/*! /Users/moriarch/Downloads/Dev/Go/fiber/node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js */"./node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+
 
 
 const App = ()=>{
@@ -16,21 +19,21 @@ const App = ()=>{
             /*#__PURE__*/ (0, react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("h1", {
                 children: "Rsbuild with React"
             }, void 0, false, {
-                fileName: "/Users/moriarch/Downloads/Dev/Go/fiber/resources/App.tsx",
-                lineNumber: 6,
+                fileName: "/Users/moriarch/Downloads/Dev/Go/fiber/resources/js/App.tsx",
+                lineNumber: 7,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("p", {
                 children: "Start building amazing things with Rsbuild."
             }, void 0, false, {
-                fileName: "/Users/moriarch/Downloads/Dev/Go/fiber/resources/App.tsx",
-                lineNumber: 7,
+                fileName: "/Users/moriarch/Downloads/Dev/Go/fiber/resources/js/App.tsx",
+                lineNumber: 8,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "/Users/moriarch/Downloads/Dev/Go/fiber/resources/App.tsx",
-        lineNumber: 5,
+        fileName: "/Users/moriarch/Downloads/Dev/Go/fiber/resources/js/App.tsx",
+        lineNumber: 6,
         columnNumber: 5
     }, undefined);
 };
@@ -48,7 +51,7 @@ Promise.resolve().then(function() {
     $ReactRefreshRuntime$.refresh(module.id, module.hot);
 });
 }),
-"./resources/index.tsx": (function (module, __webpack_exports__, __webpack_require__) {
+"./resources/js/index.tsx": (function (module, __webpack_exports__, __webpack_require__) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */"./node_modules/react/jsx-dev-runtime.js");
@@ -56,7 +59,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */"./node_modules/react/index.js");
 /* harmony import */var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */var react_dom_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom/client */"./node_modules/react-dom/client.js");
-/* harmony import */var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */"./resources/App.tsx");
+/* harmony import */var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */"./resources/js/App.tsx");
 /* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__(/*! /Users/moriarch/Downloads/Dev/Go/fiber/node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js */"./node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
 
 
@@ -65,12 +68,12 @@ __webpack_require__.r(__webpack_exports__);
 const root = react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((react__WEBPACK_IMPORTED_MODULE_1___default().StrictMode), {
     children: /*#__PURE__*/ (0, react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {}, void 0, false, {
-        fileName: "/Users/moriarch/Downloads/Dev/Go/fiber/resources/index.tsx",
+        fileName: "/Users/moriarch/Downloads/Dev/Go/fiber/resources/js/index.tsx",
         lineNumber: 8,
         columnNumber: 5
     }, undefined)
 }, void 0, false, {
-    fileName: "/Users/moriarch/Downloads/Dev/Go/fiber/resources/index.tsx",
+    fileName: "/Users/moriarch/Downloads/Dev/Go/fiber/resources/js/index.tsx",
     lineNumber: 7,
     columnNumber: 3
 }, undefined));
@@ -84,7 +87,7 @@ Promise.resolve().then(function() {
     $ReactRefreshRuntime$.refresh(module.id, module.hot);
 });
 }),
-"./resources/App.css": (function (module) {
+"./resources/js/App.css": (function (module) {
 "use strict";
 module.hot.accept();}),
 
@@ -174,7 +177,7 @@ __webpack_require__.hu = function (chunkId) {
 // webpack/runtime/get_full_hash
 !function() {
 __webpack_require__.h = function () {
-	return "dcd6a4cae0a67b9f";
+	return "67e0e9b39bdaac13";
 };
 
 }();
@@ -1391,7 +1394,7 @@ chunkLoadingGlobal.push = webpackJsonpCallback.bind(
 }();
 __webpack_require__.O(undefined, ["lib-react", "vendors-node_modules_rsbuild_core_dist_client_hmr_mjs_path_rsbuild-hmr_port_8080"] , function() { return __webpack_require__("./node_modules/@rspack/plugin-react-refresh/client/reactRefreshEntry.js") });
 __webpack_require__.O(undefined, ["lib-react", "vendors-node_modules_rsbuild_core_dist_client_hmr_mjs_path_rsbuild-hmr_port_8080"] , function() { return __webpack_require__("./node_modules/@rsbuild/core/dist/client/hmr.mjs?&path=/rsbuild-hmr&port=8080") });
-var __webpack_exports__ = __webpack_require__.O(undefined, ["lib-react", "vendors-node_modules_rsbuild_core_dist_client_hmr_mjs_path_rsbuild-hmr_port_8080"] , function() { return __webpack_require__("./resources/index.tsx") });
+var __webpack_exports__ = __webpack_require__.O(undefined, ["lib-react", "vendors-node_modules_rsbuild_core_dist_client_hmr_mjs_path_rsbuild-hmr_port_8080"] , function() { return __webpack_require__("./resources/js/index.tsx") });
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 
